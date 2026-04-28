@@ -1,0 +1,104 @@
+.sec-title {
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #003399 !important;
+    text-align: center;
+    margin-bottom: 40px;
+    position: relative;
+}
+.about-sec {
+    background-color: #ffffff;
+}
+.about-para {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: #333;
+    text-align: justify;
+    padding: 0 20px;
+}
+.about-sec img {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+.about-sec img:hover {
+    transform: scale(1.05);
+}
+
+.cont-sec {
+    background-color: #f8f9fa; 
+}
+.cont-card {
+    text-decoration: none !important;
+    display: block;
+}
+.contact-card {
+    background: #ffffff;
+    padding: 30px 20px;
+    border-radius: 12px;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid #eee;
+    height: 100%;
+}
+.contact-card i {
+    font-size: 2.5rem;
+    color: #003399;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.cont-head {
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 10px;
+}
+.cont-para {
+    font-size: 0.9rem;
+    color: #666;
+    margin-bottom: 15px;
+}
+.cont-link {
+    font-size: 1.1rem;
+    font-weight: 700;
+    color: #003399;
+    margin: 0;
+}
+.cont-card:hover .contact-card {
+    background: #003399;
+    transform: translateY(-10px);
+}
+.cont-card:hover .cont-head,
+.cont-card:hover .cont-para,
+.cont-card:hover .cont-link,
+.cont-card:hover i {
+    color: #ffffff !important;
+}
+
+.map-container {
+    border-radius: 20px;
+    overflow: hidden;
+    border: 5px solid #fff;
+}
+.map-sec {
+    background-color: #fff;
+}
+
+
+@media (max-width: 768px) {
+    .sec-title {
+        font-size: 1.8rem;
+    }
+    .about-para {
+        font-size: 1rem;
+        text-align: justify;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .contact-card {
+        margin-bottom: 10px;
+    }
+}
+
+
+
+
